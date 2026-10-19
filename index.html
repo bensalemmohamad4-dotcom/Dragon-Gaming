@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DRAGON GAMING</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #101010;
+  color: white;
+}
+header {
+  background: #080808;
+  padding: 30px 15px;
+  text-align: center;
+  border-bottom: 2px solid #555;
+}
+header h1 {
+  color: #ddd;
+  font-size: 32px;
+  margin: 0;
+}
+header p {
+  color: #aaa;
+}
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 25px 15px;
+}
+h2 {
+  text-align: center;
+  color: #ddd;
+}
+.games {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+.game {
+  background: #1c1c1c;
+  border: 1px solid #444;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+.game .symbol {
+  font-size: 60px;
+  margin: 10px;
+}
+.game h3 {
+  color: #eee;
+}
+.game p {
+  color: #bbb;
+  line-height: 1.7;
+}
+.btn {
+  display: inline-block;
+  background: #444;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 7px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.btn:hover {
+  background: #666;
+}
+footer {
+  text-align: center;
+  color: #888;
+  padding: 25px;
+}
+</style>
+</head>
+<body>
 
+<header>
+  <h1>🐉 DRAGON GAMING</h1>
+  <p>My PC Games — عالم الألعاب</p>
+</header>
+
+<main>
+  <h2>🎮 ألعابي</h2>
+
+  <div class="games">
+    <div class="game">
+      <div class="symbol">🚗</div>
+      <h3>Grand Theft Auto V</h3>
+      <p>لعبة العالم المفتوح والمغامرات.</p>
+      <a class="btn"
+         href="https://store.rockstargames.com/"
+         target="_blank" rel="noopener">
+         الموقع الرسمي
+      </a>
+    </div>
+
+    <div class="game">
+      <div class="symbol">🚘</div>
+      <h3>Mafia II</h3>
+      <p>عش قصة الجريمة والعصابات.</p>
+      <a class="btn"
+         href="https://store.steampowered.com/"
+         target="_blank" rel="noopener">
+         متجر اللعبة
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  DRAGON GAMING © 2026
+</footer>
+
+</body>
+</html>
